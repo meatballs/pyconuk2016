@@ -13,12 +13,16 @@
                 "*.sty",
                 "*.sh",
                 "*.xsh",
-		"*.md",
-		"*.sublime-project"
+        		"*.md",
+        		"*.sublime-project"
             ],
 			"follow_symlinks": true,
 			"path": "."
 		},
+        {
+            "follow_symlinks": true,
+            "path": "images"
+        }
 	],
 	"settings":
 	[
