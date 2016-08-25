@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"*"
+			],
+            "file_include_patterns":
+            [
+                "*.txt",
+                "*.tex",
+                "*.sty",
+                "*.sh",
+                "*.xsh",
+		"*.md",
+		"*.sublime-project"
+            ],
+			"follow_symlinks": true,
+			"path": "."
+		},
+	],
+	"settings":
+	[
+		{
+			"spell_check": true
+		}
+	]
+}
