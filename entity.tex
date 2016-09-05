@@ -133,12 +133,12 @@
                 \node<1->(grey)[attribute] at (my_mondeo.east){Grey};
                 \node<1->(xyz789)[attribute, anchor=north west] at (grey.south west){XYZ 789};
 
-                \node<2->(car) at (1)[substance]{Car};
-                \draw<2->(my_mx5.north) -- (car.south);
-                \draw<2->(my_mondeo.north) -- (car.south);
+                \node<1->(car) at (1)[substance]{Car};
+                \draw<1->(my_mx5.north) -- (car.south);
+                \draw<1->(my_mondeo.north) -- (car.south);
 
-                \node<3->(mx5_attr)[attribute, anchor=north west] at (abc123.south west) {Mazda MX5};
-                \node<3->(mondeo_attr)[attribute, anchor=north west] at (xyz789.south west) {Ford Mondeo};
+                \node<2->(mx5_attr)[attribute, anchor=north west] at (abc123.south west) {Mazda MX5};
+                \node<2->(mondeo_attr)[attribute, anchor=north west] at (xyz789.south west) {Ford Mondeo};
 
             \end{tikzpicture}
         }
